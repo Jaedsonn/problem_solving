@@ -40,3 +40,5 @@ O funcionamento é o seguinte:
 - Quando isso acontece, adicionamos **A[i]** ao array **B**, movemos **i** para a posição de **j** e incrementamos **j**.  
 
 No entanto, essa abordagem não lida corretamente com os casos citados acima, pois apenas adicionamos um número a **B** quando **j** encontra um valor diferente de **A[i]**. Para corrigir isso, adicionamos ao final do array **A** um número **fora do seu range de valores possíveis**. Assim, garantimos que o último número do array seja sempre processado corretamente e adicionado a **B**.  
+
+Essa foi a minha solução. Espero que tenham gostado e **deêm uma passada na implementação**, a ideia ocupa 80% da resolução de um problema, mas nem por causa disso os outros 20% são desnecessário!
